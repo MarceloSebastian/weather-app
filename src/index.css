@@ -2,6 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  min-height: 100vh;
+  background-color: #03a9f4;
 }
 nav .brand-logo {
   display: block;
@@ -14,7 +16,12 @@ nav .brand-logo {
 
 .input-field input[type=text]:focus + label {
   color: white;
-} 
+}
+
+.initial {
+  width: 100%;
+  color: #000;
+}
 
 .input-field input[type=text]:focus {
   border-bottom: 1px solid white;
@@ -48,7 +55,6 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
 .error {
   padding: 1rem!important;
   color:white;
-  margin-top: 3rem;
   text-align: center;
   text-emphasis: left;
 }
